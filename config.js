@@ -10,16 +10,16 @@ function convertToBool(text, fault = 'true') {
 module.exports = {
     
     // ===== BOT CORE SETTINGS =====
-    SESSION_ID: process.env.SESSION_ID || "",
+    SESSION_ID: process.env.SESSION_ID || "SUBZERO-MD~jQ4SR82oHjYovNYFJk05",
     PREFIX: process.env.PREFIX || ".",
-    BOT_NAME: process.env.BOT_NAME || "SUBZERO-MD",
-    MODE: process.env.MODE || "public",
+    BOT_NAME: process.env.BOT_NAME || "CUTE BOY",
+    MODE: process.env.MODE || "pravite",
     REPO: process.env.REPO || "https://github.com/mrfrankofcc/SUBZERO-MD",
     BAILEYS: process.env.BAILEYS || "@whiskeysockets/baileys",
 
     // ===== OWNER & DEVELOPER SETTINGS =====
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "263719647303",
-    OWNER_NAME: process.env.OWNER_NAME || "Mr Frank",
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "+994 40 889 85 08",
+    OWNER_NAME: process.env.OWNER_NAME || "Cute boy",
     DEV: process.env.DEV || "263719647303",
     DEVELOPER_NUMBER: '263719647303@s.whatsapp.net',
 
@@ -39,17 +39,17 @@ module.exports = {
     OWNER_REACT: process.env.OWNER_REACT || "false",
 
     // ===== MEDIA & AUTOMATION =====
-    AUTO_VOICE: process.env.AUTO_VOICE || "false",
-    AUTO_RECORDING: process.env.AUTO_RECORDING || "false",
-    AUTO_TYPING: process.env.AUTO_TYPING || "false",
+    AUTO_VOICE: process.env.AUTO_VOICE || "true",
+    AUTO_RECORDING: process.env.AUTO_RECORDING || "true",
+    AUTO_TYPING: process.env.AUTO_TYPING || "true",
     BOT_IMAGE: "https://i.postimg.cc/XNTmcqZ3/subzero-menu.png",
 
     // ===== SECURITY & ANTI-FEATURES =====
     ANTI_CALL: process.env.ANTI_CALL || "true",
-    ANTI_BAD: process.env.ANTI_BAD || "false",
+    ANTI_BAD: process.env.ANTI_BAD || "true",
     ANTI_LINK: process.env.ANTI_LINK || "true",
     ANTI_VV: process.env.ANTI_VV || "true",
-    DELETE_LINKS: process.env.DELETE_LINKS || "false",
+    DELETE_LINKS: process.env.DELETE_LINKS || "true",
     ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "log",
     ANTI_BOT: process.env.ANTI_BOT || "true",
     PM_BLOCKER: process.env.PM_BLOCKER || "true",
